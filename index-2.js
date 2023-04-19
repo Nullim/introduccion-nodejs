@@ -3,7 +3,8 @@
 
 const http = require('http');
 
-// url también es una librería "core" de node, es decir, no está incluida en package.json como una dependencia
+// url también es una librería "core" de node, es decir,
+// no está incluida en package.json como una dependencia
 const url = require('url');
 
 const server = http.createServer((req, res) => {

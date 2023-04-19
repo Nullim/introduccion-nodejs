@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
     layout: 'ejemplo',
     data: {
       nombre,
-      // notar que esta función se ejecuta al renderear la vista, 
+      // notar que esta función se ejecuta al renderear la vista,
       // en el servidor, no en el navegador.
       nombreMayusculas: () => nombre.toUpperCase(),
       listado: [1, 2, 3, 4],

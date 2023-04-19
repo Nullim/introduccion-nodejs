@@ -11,7 +11,7 @@ function logHashTime() {
   });
 }
 
-// mi máquina tiene 4 procesadores entonces puede realizar 4 operaciones "a la vez" con "threads" 
+// mi máquina tiene 4 procesadores entonces puede realizar 4 operaciones "a la vez" con "threads"
 // creados con livub (interno de node)
 logHashTime();
 logHashTime();
